@@ -1,0 +1,77 @@
+body{
+  background: #eeedec;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+
+h1 {
+  font-family:Georgia,serif;
+  color:#666666;
+  font-size:30px;
+  line-height:1em;
+  margin:0 0 0 0px;
+  }
+ 
+h1 strong{
+color:#A80C1E;
+display:block;
+font-size:85px;
+font-weight:normal;
+letter-spacing:-3.5px;
+line-height:1em;
+}
+
+/*##############################*/
+/*Card css:*/
+.weather-card {
+  max-width: 400px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.weather-card img {
+  transition: all 0.15s linear;
+}
+
+.weather-card .card-overview {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0));
+  color: #FFF;
+  padding: 50px 0px 100px 0px;
+  transition: all 0.15s linear;
+}
+
+.weather-card .card-overview h3 {
+  font-weight: bold;
+}
+
+.weather-card .card-overview p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.weather-card:hover img {
+  filter: brightness(80%);
+}
+
+.weather-card:hover .profile-name {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.weather-card:hover .profile-position {
+  left: 40px;
+}
+.weather-card:hover .card-overview {
+  padding-bottom: 105px;
+}
+.city{
+  font-size: 1rem;
+}
