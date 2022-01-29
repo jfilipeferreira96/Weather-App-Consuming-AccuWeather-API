@@ -32,8 +32,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align="center">
-<img  width="700px" height="auto" src="./img/1-before.png"  />
-<img  width="700px" height="auto" src="./img/2-after.png"  />
-<img  width="700px" height="auto" src="./img/3-after.png"  />
+<img  width="700px" height="auto" src="./img/1_before.png"  />
+<img  width="700px" height="auto" src="./img/2_after.png"  />
+<img  width="700px" height="auto" src="./img/3_after.png"  />
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
